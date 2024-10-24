@@ -1,0 +1,333 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+:root{
+    --primary-color: #009DFF;
+    --secondary-color: #1F1F1F;
+
+    --color-00: #727272;
+    --color-99: #83C4FF;
+
+    --color-white: white;
+
+    --size-sm: 14px;
+    --size-md: 16px;
+    --size-lg: 26px;
+    --size-xl: 50px;
+    --size-xxl: 70px;
+}
+
+
+
+/*--------- Navigation Start -----------*/
+
+
+.navbar {
+    background-color: green !important;
+}
+
+ .navbar-brand h6 {
+    color: black;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+
+
+.navbar .navbar-nav .nav-item .nav-link {
+    color:black;
+    padding: 12px 14px;
+    font-size: 16px;
+    font-weight:bold;
+}
+
+.navbar .navbar-nav .nav-item .nav-link:hover {
+    color: white;
+}
+
+#contactBtn {
+    border: 1px solid yellow;
+    padding: 6px 14px;
+}
+
+#contactBtn:hover {
+    color: white;
+}
+
+/*-------- Navigation End --------*/
+
+
+
+
+/*------- Banner Area Start --------*/
+.banner-area {
+    width: 100%;
+    height: 60vh;
+    background-image: url('../../assets/images/card-1.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #0C0C0C;
+    opacity: .6;
+}
+
+
+
+.banner-area .banner-content span {
+    color:yellow;
+    font-weight:bold;
+}
+
+/*------- Banner Area End --------*/
+
+
+
+
+
+/*--------- Instruction Area Start ----------*/
+.instruction-area h3{
+    color: #006747;
+}
+
+.instruction-area .farhana{
+         text-decoration: none;
+         padding-left:  80px;
+
+}
+.instruction-area span{
+    font-size: 18px;
+    text-align: justify;
+    display: block;
+}
+.instruction-area span i{
+    font-size: 30px;
+    color: #006747;
+}
+
+#railSheba{
+    text-decoration: none;
+    font-weight: 500;
+    color: #006747;
+}
+#googlePlay{
+    font-weight: 500;
+    color: #006747;
+}
+/*--------- Instruction Area End ----------*/
+
+
+/*--------- about us Area start ----------*/
+
+
+
+.introduction-area img{
+    height: 60vh;
+    width: 80vh;
+}
+
+
+
+.team-area .team-card .team-photo{
+    width: 92%;
+    height: 238px;
+    position: relative;
+    overflow: hidden;
+}
+ .team-area .team-card .team-photo img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    object-fit: cover;
+}
+
+
+
+.card-area .card{
+    height: 200px;
+    width: : 100px;
+    padding: 20px;
+    border:  #EEF5F9;
+
+}
+
+.card-area .card i{
+    font-size: 45px;
+    color: blue;
+}
+
+.card-area .card span{
+  font-size: 20px;
+}
+
+.card-area{
+    background-color: #F5F5F5;
+padding-bottom: 25px;
+}
+
+/*--------- about us Area End ----------*/
+
+
+/* Department Area Start 
+----------------------------*/
+.our-department{
+    background-color: #F5FBFF;
+    padding: 100px 0px;
+}
+
+.our-department .line{
+    width: 80px;
+    margin: auto;
+    border: 1px solid var(--color-99);
+}
+
+.our-department .sub-title{
+    color: var(--color-00);
+}
+.our-department .card{
+    overflow: hidden;
+    border: none;
+    background-color: var(--color-white);
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.our-department .card .img-box{
+    width: 100%;
+    height: 240px;
+    position: relative;
+    overflow: hidden;
+}
+.our-department .card:hover .img-box img{
+    transform: scale(1.3);
+    transition: .6s;
+}
+.our-department .card .img-box img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.our-department .card .title{
+    text-decoration: none;
+    color: var(--secondary-color);
+    font-size: var(--size-lg);
+    font-weight: 500;
+}
+.our-department .card .title:hover{
+    color: var(--primary-color);
+    transition: .6s;
+}
+.our-department .card p{
+    margin-top: 10px;
+    color: var(--color-00);
+    font-size: var(--size-md);
+    font-weight: 500;
+}
+.our-department .card .l-more{
+    text-decoration: none;
+    color: var(--primary-color);
+    font-size: var(--size-md);
+    font-weight: 500;
+}
+.our-department .card .l-more:hover{
+    text-decoration: underline;
+}
+
+/* Department Area End 
+----------------------------*/
+
+
+
+/* Footer Start 
+----------------------------*/
+footer{
+    background-color: var(--secondary-color);
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+footer p{
+    color: #ADADAD;
+    font-size: var(--size-md);
+    padding: 30px 0px;
+    font-weight: 500;
+}
+footer .f-title h4{
+    font-weight: 500;
+    color: var(--color-white);
+}
+footer ul{
+    margin: 0;
+    padding: 0;
+    padding: 30px 0px;
+}
+footer ul li{
+    line-height: 36px;
+    color: #ADADAD;
+    font-weight: 500;
+}
+footer ul li a{
+    color: #ADADAD;
+    font-weight: 500;
+    text-decoration: none; 
+}
+footer ul li a:hover{
+    color: var(--primary-color);
+}
+footer .social-links .icon3{
+    width: 50px;
+    height: 50px;
+    background-color: #616161;
+    position: relative;
+    border-radius: 3px;
+}
+footer .social-links .icon3 i{
+    color: #C7C7C7;
+    font-size: 14px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+}
+footer .social-links .icon3 i:hover{
+    color: white;
+}
+
+/* Footer End 
+----------------------------*/
+
+/* Copyright Area  Start 
+----------------------------*/
+.copyright-area{
+    background-color: black;
+}
+.copyright-area span{
+    color: #ADADAD;
+}
+
+
+#coLor{
+    text-decoration: none;
+}
+/* Copyright Area   End 
+----------------------------*/
+
+
+
+
